@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>GEU_GestaltBVRCommunication</defName>
+    <label>GEU_GestaltBVRCommunication</label>
+    <description>GEU_GestaltBVRCommunicationDesc</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>RM_GestaltEngine</li>
+    </prerequisites>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>1.30</researchViewY>
+    <!-- <tab>RM_ReinforcedMechanoids</tab> 移除 tab 标签以归入 Def 默认的标签页 -->
+  </ResearchProjectDef>
+
+</Defs>

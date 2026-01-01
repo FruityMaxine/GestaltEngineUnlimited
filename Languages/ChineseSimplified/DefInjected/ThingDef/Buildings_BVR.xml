@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GEU_SignalExpansionTower.label>格式塔信号中继器</GEU_SignalExpansionTower.label>
+  <GEU_SignalExpansionTower.description>一种专为扩展格式塔网络信号范围而设计的辅助设施。连接到格式塔枢纽后，它能够显著增强信号的覆盖半径。\n\n随着连接数量的增加，控制范围将呈指数级增长，最终实现全球网络同步。\n\n注意：由于强磁场干扰，中继器之间必须保持最小间隔。</GEU_SignalExpansionTower.description>
+
+</LanguageData>

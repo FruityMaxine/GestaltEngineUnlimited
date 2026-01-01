@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mod名称 -->
+  <GEU_ModName>格式塔引擎：无限升级</GEU_ModName>
+  
+  <!-- Mod设置界面 -->
+  <GEU_UpgradeCurveMode>升级曲线模式</GEU_UpgradeCurveMode>
+  <GEU_LinearMode>线性模式</GEU_LinearMode>
+  <GEU_LinearModeDesc>升级消耗和加成按固定数值增长。</GEU_LinearModeDesc>
+  <GEU_LogarithmicMode>对数模式 (默认)</GEU_LogarithmicMode>
+  <GEU_LogarithmicModeDesc>升级消耗和加成按百分比或指数增长，后期更平衡。</GEU_LogarithmicModeDesc>
+  
+  <!-- 当前模式说明 (In-Game Stats/Info) -->
+  <GEU_CurrentModeLinear>【线性模式】每级+6带宽，+1控制组，+2000W电力</GEU_CurrentModeLinear>
+  <GEU_CurrentModeLinearDetail>适合追求极限数值的玩家。高等级需要大量电力和资源，但提升明显。</GEU_CurrentModeLinearDetail>
+  <GEU_CurrentModeLog>【对数模式】增长逐渐放缓，保持游戏平衡</GEU_CurrentModeLog>
+  <GEU_CurrentModeLogDetail>推荐模式。保持良好的游戏平衡性，避免后期数值过于夸张。</GEU_CurrentModeLogDetail>
+  
+  <!-- 游戏内文本 (In-Game Messages/Inspect) -->
+  <GEU_CurrentLevel>当前等级：{0}</GEU_CurrentLevel>
+  <GEU_UpgradeToLevel>升级到等级 {0}</GEU_UpgradeToLevel>
+  <GEU_UnlimitedActivated>格式塔枢纽无限升级补丁已激活</GEU_UnlimitedActivated>
+  <GEU_MaterialsRequired>升级需要材料</GEU_MaterialsRequired>
+  <GEU_PowerRequired>电力需求：{0}W</GEU_PowerRequired>
+  <GEU_MechBandwidth>机械带宽：{0}</GEU_MechBandwidth>
+  <GEU_ControlGroups>控制组数：{0}</GEU_ControlGroups>
+  <GEU_ResearchSpeed>研究速度：{0}/秒</GEU_ResearchSpeed>
+  <GEU_HeatProduction>热量产生：{0}/秒</GEU_HeatProduction>
+
+  <!-- 线性模式设置 (Settings Menu) -->
+  <GEU_LinearModeSettings>线性模式参数设置</GEU_LinearModeSettings>
+  <GEU_PowerSlope>电力消耗增长</GEU_PowerSlope>
+  <GEU_BandwidthSlope>带宽上限增长</GEU_BandwidthSlope>
+  <GEU_ControlGroupSlope>控制组增长</GEU_ControlGroupSlope>
+  <GEU_ResearchSlope>研究速度增长</GEU_ResearchSlope>
+  <GEU_HeatSlope>发热量增长</GEU_HeatSlope>
+  <GEU_UpgradeCooldown>基础升级冷却</GEU_UpgradeCooldown>
+  <GEU_UpgradeDuration>基础升级耗时</GEU_UpgradeDuration>
+
+  <!-- 对数模式设置 (Settings Menu) -->
+  <GEU_LogarithmicModeSettings>对数模式参数设置</GEU_LogarithmicModeSettings>
+  <GEU_PowerLogBase>电力增长底数</GEU_PowerLogBase>
+  <GEU_BandwidthLogBase>带宽增长底数</GEU_BandwidthLogBase>
+  <GEU_HeatLogBase>热量增长底数</GEU_HeatLogBase>
+  <GEU_MinBandwidthPerLevel>每级最小带宽增加</GEU_MinBandwidthPerLevel>
+  <GEU_CooldownIncrement>冷却时间增量</GEU_CooldownIncrement>
+  <GEU_MaxUpgradeCooldown>最大冷却时间封顶</GEU_MaxUpgradeCooldown>
+  <GEU_DurationIncrement>持续时间增量</GEU_DurationIncrement>
+  <GEU_MaxUpgradeDuration>最大持续时间封顶</GEU_MaxUpgradeDuration>
+
+  <!-- 通用单位 -->
+  <GEU_PerLevel>/级</GEU_PerLevel>
+  <GEU_Days>天</GEU_Days>
+  
+  <!-- 信号状态栏 Gizmo -->
+  <GEU_SignalStatus>信号中继状态</GEU_SignalStatus>
+  <GEU_SignalStatusDesc>显示当前连接的信号中继塔数量，这决定了格式塔引擎的最大有效范围。</GEU_SignalStatusDesc>
+  <GEU_SignalStatusDetail>活跃中继塔：{0} / 12\n最大有效范围：{1}</GEU_SignalStatusDetail>
+  <GEU_SignalStatus_OutOfRange>目标超出信号覆盖范围。</GEU_SignalStatus_OutOfRange>
+  <GEU_SignalStatus_ArrivalLost>警告：{0} 抵达了信号盲区！已断开连接。</GEU_SignalStatus_ArrivalLost>
+  <GEU_Unlimited>无限</GEU_Unlimited>
+  <GEU_DraftDisabledReason>位于信号盲区</GEU_DraftDisabledReason>
+
+  <!-- 重置按钮 -->
+  <GEU_ResetToDefaults>恢复默认设置</GEU_ResetToDefaults>
+
+  <GEU_PrepareUninstall>准备卸载 Mod (安全移除)</GEU_PrepareUninstall>
+  <GEU_PrepareUninstallConfirm>警告：此操作将彻底删除所有信号塔，并将所有格式塔枢纽重置为4级。这是不可逆的操作，但可以确保在移除本Mod后存档仍能安全加载。确定执行吗？</GEU_PrepareUninstallConfirm>
+  <GEU_PrepareUninstallDesc>在移除本Mod前点击此按钮，清理所有Mod特有数据以防止存档损坏。</GEU_PrepareUninstallDesc>
+</LanguageData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GEU_SignalExpansionTower</defName>
+    <thingClass>GestaltEngineUnlimited.Building_SignalTower</thingClass>
+    <label>GEU_SignalExpansionTower</label> <!-- 使用翻译键或文本注入 -->
+    <description>GEU_SignalExpansionTowerDesc</description>
+    <graphicData>
+      <texPath>Things/Building/Gestalt/SignalExpansionTower</texPath> <!-- 在此处放置您的纹理路径 -->
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+
+    </graphicData>
+    <uiIconScale>0.9</uiIconScale>
+    <size>(2,2)</size>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <designationCategory>Biotech</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>0.5</Flammability>
+      <Mass>15</Mass>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+            <!-- 可以在这里添加一些小的属性加成，或者留空仅作计数用 -->
+        </statOffsets>
+        <maxSimultaneous>12</maxSimultaneous>
+        <mustBePlacedAdjacent>false</mustBePlacedAdjacent>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>GestaltEngineUnlimited.PlaceWorker_RelayGap</li>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>GEU_GestaltBVRCommunication</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

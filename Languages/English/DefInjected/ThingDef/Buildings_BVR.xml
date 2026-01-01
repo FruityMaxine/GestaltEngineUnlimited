@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GEU_SignalExpansionTower.label>Gestalt Signal Relay</GEU_SignalExpansionTower.label>
+  <GEU_SignalExpansionTower.description>A specialized facility designed to extend the signal range of the Gestalt network. When connected to a Gestalt Hub, it significantly increases the control radius.\n\nAs the number of connections increases, the control range grows exponentially, eventually enabling global network synchronization.\n\nNote: Due to strong magnetic interference, relays must be placed with a minimum gap of one cell between them.</GEU_SignalExpansionTower.description>
+
+</LanguageData>

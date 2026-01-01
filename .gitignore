@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# RimWorld Mod specific
+Logs/
+Published/
+Output/
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Compiled DLLs (keep the ones in Assemblies if they are part of the release, but usually we ignore local builds if we have a robust build pipeline. However for a mod repo we often commit the assemblies so users can just download it. But wait, I am compiling LOCALLY. The 'Assemblies' folder contains 'GestaltEngineUnlimited.dll'. Usually modders commit this. But I should exclude the Libs references if they are just copies? 'Libs' folder contains dependencies. User committed them? I should probably NOT ignore Assemblies, but maybe ignore Libs if they are standard? No, for a standalone repo, keeping Libs is useful for build. I will leave Assemblies and Libs included.)

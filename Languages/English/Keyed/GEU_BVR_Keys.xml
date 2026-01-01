@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BVR Extension -->
+  <GEU_PlaceWorker_RelayGap>Cannot place: Must satisfy a minimum gap of 1 cell from other Signal Relays.</GEU_PlaceWorker_RelayGap>
+  <GEU_Setting_SmartCaretakerCheckDesc>Prevents the Caretaker (Rhinoceros Beetle) from self-destructing if allies are present in shuttles, cryptosleep caskets, or other containers on the map. Vanilla logic only checks spawned pawns, causing suicide during evacuation.</GEU_Setting_SmartCaretakerCheckDesc>
+  <GEU_Command_DevResetHackCooldown>DEV: Reset Hack Cooldown</GEU_Command_DevResetHackCooldown>
+  <GEU_Command_DevResetHackCooldownDesc>Developer Tool: Instantly resets the cooldown for hacking enemy mechanoids.</GEU_Command_DevResetHackCooldownDesc>
+
+  <GEU_Error_HackFailed>Hack failed, please check log</GEU_Error_HackFailed>
+  <GEU_Error_StartHackMethodNotFound>Error: Start hack method not found</GEU_Error_StartHackMethodNotFound>
+  <GEU_MapSelect_Current>Current Map</GEU_MapSelect_Current>
+  <GEU_MapSelect_SwitchTo>Switch to: {0}</GEU_MapSelect_SwitchTo>
+  <GEU_Message_RedirectingSignal>Redirecting signal...</GEU_Message_RedirectingSignal>
+
+  <GEU_Dev_InstantCooldown>DEV: Instant Cooldown</GEU_Dev_InstantCooldown>
+  <GEU_Dev_InstantCooldownDesc>Developer Tool: Instantly finish upgrade cooldown.</GEU_Dev_InstantCooldownDesc>
+  <GEU_Command_RemoteConnect>Remote Control</GEU_Command_RemoteConnect>
+  <GEU_Command_RemoteConnectDesc>Attempt to connect to a mechanoid on a remote tile. Must be within signal coverage.</GEU_Command_RemoteConnectDesc>
+  <GEU_Message_OutOfRange>Target is out of signal range (Current Range: {0} tiles)</GEU_Message_OutOfRange>
+  <GEU_Message_SignalLost>Warning: {0} has entered a signal blind spot (Dist: {1} tiles / Range: {2} tiles), currently in uncontrolled state.</GEU_Message_SignalLost>
+  <GEU_Message_SignalRestored>Signal Restored: {0} has reconnected.</GEU_Message_SignalRestored>
+  <GEU_Settings_BVRSection>Remote Communication (BVR) Settings</GEU_Settings_BVRSection>
+  <GEU_Settings_BaseRange>Base Signal Range</GEU_Settings_BaseRange>
+  <GEU_Setting_EnableBVR>Enable Broad-range Verification (BVR) Mode</GEU_Setting_EnableBVR>
+  <GEU_Setting_EnableBVRDesc>Enables cross-map control of mechanoids by the Gestalt Hub. Requires Signal Expansion Towers to extend range.</GEU_Setting_EnableBVRDesc>
+  <GEU_Settings_GrowthFactor>Growth Factor</GEU_Settings_GrowthFactor>
+  <GEU_Setting_SmartCaretakerCheck>Smart Caretaker Check</GEU_Setting_SmartCaretakerCheck>
+  <GEU_Setting_SignalTowerPower>Gestalt Signal Relay Power Consumption</GEU_Setting_SignalTowerPower>
+</LanguageData>

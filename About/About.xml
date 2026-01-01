@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Gestalt Engine Unlimited</name>
+  <author>Fruity Trump</author>
+  <packageId>FruityTrump.gestalt.engine.unlimited</packageId>
+  <modVersion>2.1.4</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description><![CDATA[<b><color=#00FF00>解除格式塔枢纽的4级上限，理论上可无限升级。</color></b>
+<b><color=#00FF00>提供格式塔枢纽控制的机械体跨地图活动的可能。</color></b>
+
+<b><color=#87CEEB>Remove the level 4 cap of Gestalt Engine, theoretically unlimited upgrades.</color></b>
+<b><color=#87CEEB>Enables cross-map operations for mechanoids controlled by the Gestalt Hub.</color></b>
+
+<b><color=#FFA500>依赖前置： [Reinforced Mechanoid 2] 或 [Gestalt Engine (Continued)].</color></b>
+<b><color=#FFA500>Requires either [Reinforced Mechanoid 2] OR [Gestalt Engine (Continued)].</color></b>
+
+<size=18><b>Update Log (2.1.4):</b></size>
+- <b>[Critical Fix] Save Safety:</b> 强制存档等级为0级，彻底消除卸载Mod后的坏档风险。
+- <b>[Critical Fix] Crash:</b> 修复了在开发者模式下关闭 BVR 后点击“建筑规划”导致游戏崩溃的问题。
+- <b>[Improvement] Runtime Safety:</b> 增加了运行时异常拦截，防止因残留的高等级数据导致报错。]]></description>
+  <url>https://github.com/FruityMaxine/GestaltEngineUnlimited</url>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+      <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>Mlie.ReinforcedMechanoid2</li>
+    <li>Mlie.GestaltEngine</li>
+  </loadAfter>
+</ModMetaData>

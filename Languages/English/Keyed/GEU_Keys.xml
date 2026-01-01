@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mod Name -->
+  <GEU_ModName>Gestalt Engine Unlimited</GEU_ModName>
+  
+  <!-- Mod Settings Interface -->
+  <GEU_UpgradeCurveMode>Upgrade Curve Mode</GEU_UpgradeCurveMode>
+  <GEU_LinearMode>Linear Mode</GEU_LinearMode>
+  <GEU_LinearModeDesc>Costs and bonuses increase by fixed amounts per level.</GEU_LinearModeDesc>
+  <GEU_LogarithmicMode>Logarithmic Mode (Default)</GEU_LogarithmicMode>
+  <GEU_LogarithmicModeDesc>Costs and bonuses increase exponentially or by percentage, balanced for late game.</GEU_LogarithmicModeDesc>
+  
+  <!-- Current Mode Description -->
+  <GEU_CurrentModeLinear>[Linear Mode] +6 bandwidth, +1 control group, +2000W power per level</GEU_CurrentModeLinear>
+  <GEU_CurrentModeLinearDetail>For players seeking extreme values. High levels require massive power and resources, but gains are significant.</GEU_CurrentModeLinearDetail>
+  <GEU_CurrentModeLog>[Logarithmic Mode] Growth gradually slows, maintains game balance</GEU_CurrentModeLog>
+  <GEU_CurrentModeLogDetail>Recommended mode. Maintains good game balance, avoids excessive late-game values.</GEU_CurrentModeLogDetail>
+  
+  <!-- In-Game Text -->
+  <GEU_CurrentLevel>Current Level: {0}</GEU_CurrentLevel>
+  <GEU_UpgradeToLevel>Upgrade to Level {0}</GEU_UpgradeToLevel>
+  <GEU_UnlimitedActivated>Gestalt Hub Unlimited Patch Activated</GEU_UnlimitedActivated>
+  <GEU_MaterialsRequired>Upgrade Materials Required</GEU_MaterialsRequired>
+  <GEU_PowerRequired>Power Required: {0}W</GEU_PowerRequired>
+  <GEU_MechBandwidth>Mech Bandwidth: {0}</GEU_MechBandwidth>
+  <GEU_ControlGroups>Control Groups: {0}</GEU_ControlGroups>
+  <GEU_ResearchSpeed>Research Speed: {0}/s</GEU_ResearchSpeed>
+  <GEU_HeatProduction>Heat Production: {0}/s</GEU_HeatProduction>
+
+  <!-- Linear Mode Settings -->
+  <GEU_LinearModeSettings>Linear Mode Parameters</GEU_LinearModeSettings>
+  <GEU_PowerSlope>Power Consumption Growth</GEU_PowerSlope>
+  <GEU_BandwidthSlope>Bandwidth Cap Growth</GEU_BandwidthSlope>
+  <GEU_ControlGroupSlope>Control Group Growth</GEU_ControlGroupSlope>
+  <GEU_ResearchSlope>Research Speed Growth</GEU_ResearchSlope>
+  <GEU_HeatSlope>Heat Generation Growth</GEU_HeatSlope>
+  <GEU_UpgradeCooldown>Base Upgrade Cooldown</GEU_UpgradeCooldown>
+  <GEU_UpgradeDuration>Base Upgrade Duration</GEU_UpgradeDuration>
+
+  <!-- Logarithmic Mode Settings -->
+  <GEU_LogarithmicModeSettings>Logarithmic Mode Parameters</GEU_LogarithmicModeSettings>
+  <GEU_PowerLogBase>Power Growth Base</GEU_PowerLogBase>
+  <GEU_BandwidthLogBase>Bandwidth Growth Base</GEU_BandwidthLogBase>
+  <GEU_HeatLogBase>Heat Growth Base</GEU_HeatLogBase>
+  <GEU_MinBandwidthPerLevel>Min Bandwidth Per Level</GEU_MinBandwidthPerLevel>
+  <GEU_CooldownIncrement>Cooldown Increment</GEU_CooldownIncrement>
+  <GEU_MaxUpgradeCooldown>Max Cooldown Cap</GEU_MaxUpgradeCooldown>
+  <GEU_DurationIncrement>Duration Increment</GEU_DurationIncrement>
+  <GEU_MaxUpgradeDuration>Max Duration Cap</GEU_MaxUpgradeDuration>
+
+  <!-- Common Units -->
+  <GEU_PerLevel>/Lvl</GEU_PerLevel>
+  <GEU_Days>Days</GEU_Days>
+  
+  <!-- Signal Status Gizmo -->
+  <GEU_SignalStatus>Signal Relay Status</GEU_SignalStatus>
+  <GEU_SignalStatusDesc>Shows the number of connected Signal Expansion Towers, which determines the maximum effective range.</GEU_SignalStatusDesc>
+  <GEU_SignalStatusDetail>Active Relays: {0} / 12\nMax Range: {1} tiles</GEU_SignalStatusDetail>
+  <GEU_SignalStatus_ArrivalLost>Warning: {0} has arrived in a signal blind spot! Connection lost.</GEU_SignalStatus_ArrivalLost>
+  <GEU_Unlimited>Unlimited</GEU_Unlimited>
+  <GEU_DraftDisabledReason>Signal Blind Spot</GEU_DraftDisabledReason>
+
+  <!-- Reset Button -->
+  <GEU_ResetToDefaults>Reset to Defaults</GEU_ResetToDefaults>
+  
+  <GEU_PrepareUninstall>Prepare for Uninstall (Safe Remove)</GEU_PrepareUninstall>
+  <GEU_PrepareUninstallConfirm>WARNING: This will DESTROY all Signal Towers and RESET all Gestalt Engines to level 4. This is irreversible but makes the save safe to load without this mod. Are you sure?</GEU_PrepareUninstallConfirm>
+  <GEU_PrepareUninstallDesc>Click this button before removing the mod to clean up mod-specific data and prevent save corruption.</GEU_PrepareUninstallDesc>
+</LanguageData>

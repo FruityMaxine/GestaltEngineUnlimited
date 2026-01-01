@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BVR Extension -->
+  <GEU_PlaceWorker_RelayGap>无法放置：必须与其他信号中继器保持至少 1 格的间距。</GEU_PlaceWorker_RelayGap>
+  <GEU_Command_RemoteConnect>远程控制</GEU_Command_RemoteConnect>
+  <GEU_Command_RemoteConnectDesc>尝试连接至位于远程地块的机械体。需在信号覆盖范围内。</GEU_Command_RemoteConnectDesc>
+  <GEU_Message_OutOfRange>目标超出信号覆盖范围 (当前范围: {0} 格)</GEU_Message_OutOfRange>
+  <GEU_Message_SignalLost>警告：{0} 进入信号盲区 (距离: {1} 格 / 范围: {2} 格)，现处于失控状态。</GEU_Message_SignalLost>
+  <GEU_Message_SignalRestored>信号恢复：{0} 重新获得连接。</GEU_Message_SignalRestored>
+  <GEU_Settings_BVRSection>远程通信 (BVR) 设置</GEU_Settings_BVRSection>
+  <GEU_Settings_BaseRange>基础信号范围</GEU_Settings_BaseRange>
+  <GEU_Setting_EnableBVR>启用广域格式塔信号模式 (BVR)</GEU_Setting_EnableBVR>
+  <GEU_Setting_EnableBVRDesc>开启后，格式塔枢纽可以跨地图控制机械体。需要建造信号中继塔来扩展信号范围。</GEU_Setting_EnableBVRDesc>
+  <GEU_Settings_GrowthFactor>增长系数</GEU_Settings_GrowthFactor>
+  <GEU_Setting_SmartCaretakerCheck>智能独角仙(Caretaker)保护</GEU_Setting_SmartCaretakerCheck>
+  <GEU_Setting_SmartCaretakerCheckDesc>开启后，当独角仙(Caretaker)所在的地图上存在位于穿梭机、休眠舱或其他容器内的友军时，阻止其自爆。原版逻辑仅检测已生成的单位，导致全员撤离时独角仙会自杀。</GEU_Setting_SmartCaretakerCheckDesc>
+  <GEU_Command_DevResetHackCooldown>DEV: 重置骇入冷却</GEU_Command_DevResetHackCooldown>
+  <GEU_Command_DevResetHackCooldownDesc>开发人员工具：立即将骇入敌方机械体的冷却时间归零。</GEU_Command_DevResetHackCooldownDesc>
+  
+  <GEU_Error_HackFailed>骇入失败，请查看日志</GEU_Error_HackFailed>
+  <GEU_Error_StartHackMethodNotFound>错误：未找到骇入启动方法(starthack)</GEU_Error_StartHackMethodNotFound>
+  <GEU_MapSelect_Current>当前地图</GEU_MapSelect_Current>
+  <GEU_MapSelect_SwitchTo>切换至: {0}</GEU_MapSelect_SwitchTo>
+  <GEU_Message_RedirectingSignal>正在重定向信号...</GEU_Message_RedirectingSignal>
+  
+  <GEU_Dev_InstantCooldown>DEV: 立即冷却</GEU_Dev_InstantCooldown>
+  <GEU_Dev_InstantCooldownDesc>开发者工具：立即结束升级冷却时间</GEU_Dev_InstantCooldownDesc>
+  <GEU_Setting_SmartCaretakerCheck>智能独角仙检查</GEU_Setting_SmartCaretakerCheck>
+  <GEU_Setting_SignalTowerPower>格式塔信号中继器电力消耗</GEU_Setting_SignalTowerPower>
+</LanguageData>
